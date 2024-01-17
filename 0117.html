@@ -2,31 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌈</text></svg>">
-    <title>登入頁面</title>
+    <title>志工服務</title>
 </head>
 <body>
-    <div class='card block fixed'  style='margin: 3rem 6% 0 6%;'>
-        <div style='display:flex'>
-            <h2 class='block fixed'>登入頁面</h2>
-        </div>
-        <div style='display:flex;'>
-            <div class=' block fixed'>
-                <img src="https://asset.mmm.page/5d/dbe5f326814df7a8c7fcf9ff1ce248/giphy-1-.gif" alt="this slowpoke moves" style='max-width:100%;' />
-            </div>
-        </div>
-        <div style='display:flex; flex-wrap:wrap'>
-            <a class='block accent' href='https://www.facebook.com/bojne.john/' target="_blank">Facebook</a>
-            <a class='block accent' href='https://www.instagram.com/yuehan__/' target="_blank">Instagram</a>
-            <a class='block accent' href='https://github.com/bojne' target="_blank">Github</a>
-            <a class='block accent' href='https://bojne.medium.com' target="_blank">Medium</a> 
-            <a class='block accent' href='https://twitter.com/boj_ne' target="_blank">Twitter</a> 
-        </div>
-    </div>
-    <center style='margin-top: 1.5rem'>
-        Styled with <a href='https://github.com/thesephist/blocks.css'>block.css</a>, deployed on <a href='https://netlify.com/' target="_blank">Netlify</a> 🌈
-    </center>
+    <h1>案件回報</h1>
+    <form action="" method="post">
+        <p>案件名稱：</p>
+        <p><select value="name">
+            <option>案件名稱</option>
+            <option>默認案件</option>
+            <option>默認案件</option>
+        </select></p>
+        
+        
+        <p>案件時間：</p>
+        <p><select value="nian">
+                <option>選擇年份</option>
+                <option>2023</option>
+                <option>2024</option>
+            </select>年
+            <select value="month">
+                <option>選擇月份</option>
+                <option>1月</option>
+                <option>2月</option>
+                <option>3月</option>
+                <option>4月</option>
+                <option>5月</option>
+                <option>6月</option>
+                <option>7月</option>
+                <option>8月</option>
+                <option>9月</option>
+                <option>10月</option>
+                <option>11月</option>
+                <option>12月</option>
+            </select>月
+            <input type="text" name="day"/>日
+            <select value="hour">
+            <option>00</option>
+                <option>00</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+            </select>時
+            <input type="text" name="minute"/>分
+        </p>
+        <p>服務地點：</p>
+        <p><input type="text" placeholder="請輸入服務地點" name="Place"></p>
+        
+        <p>備註：</p>
+        <p><input type="text"  placeholder="備註" name="Remark"></p>
+        <button>回報上傳</button>
+    </form>
+
 </body>
 </html>
